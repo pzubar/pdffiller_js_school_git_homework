@@ -10,8 +10,6 @@ function runQuiz(quiz) {
 
   quiz.answers = questions.map(askQuestion);
 
-  console.log(quiz.answers);
-
   return quiz;
 } 
 
